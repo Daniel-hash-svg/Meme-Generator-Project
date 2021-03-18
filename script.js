@@ -23,14 +23,16 @@ let earthButton=document.getElementById('earth')
 function red(){
     var image = document.getElementById('meme-image-container');
     image.style.borderColor='red'
-    image.style.borderWidth= '5px'
+    image.style.borderWidth= '3px'
+    image.style.borderStyle='dashed'
 }
 fireButton.addEventListener('click',red)
 
 function blue(){
     var image = document.getElementById('meme-image-container');
     image.style.borderColor='blue'
-    image.style.borderWidth= '5px'
+    image.style.borderWidth= '6px'
+    image.style.borderStyle='double'
 }
 waterButton.addEventListener('click',blue)
 
@@ -38,6 +40,7 @@ function green(){
     var image = document.getElementById('meme-image-container');
     image.style.borderColor='green'
     image.style.borderWidth= '5px'
+    image.style.borderStyle='groove'
 }
 earthButton.addEventListener('click',green)
 
