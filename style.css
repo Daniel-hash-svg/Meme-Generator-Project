@@ -16,19 +16,21 @@ h1{
 
 
 #meme-text{
-    margin-top: 200px;
-    font-size: 30px;
-    color: white;
-    font-size: 30px;
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 120px;
+    margin-top: 300px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 50px;
+    position: absolute; 
     text-shadow:5px 5px 5px black;
 }
 button{
     font-size: 20px;
     margin: 15px;
     padding: 10px;
+}
+#text-input{
+    width: 180px;
 }
 #text-input:hover{
    border-color: rgb(255, 8, 0);
