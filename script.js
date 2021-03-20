@@ -4,6 +4,8 @@ input.addEventListener('input',sameSentence)
 function sameSentence(){
    memeText.innerHTML= input.value
 }
+
+
 //requisito de carregar a foto ao apertar o botão 
 let fileInput=document.getElementById('meme-insert')
 
@@ -43,4 +45,3 @@ function green(){
     image.style.borderStyle='groove'
 }
 earthButton.addEventListener('click',green)
-
